@@ -141,3 +141,17 @@ body{
 .thumbnails a h3 {
   margin: 1em;
 }
+
+@media (max-width: 800px) {
+  .thumbnails {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .thumbnails {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
