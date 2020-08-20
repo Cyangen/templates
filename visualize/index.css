@@ -38,6 +38,10 @@ body{
 
 .header h1{
   color: rgba(255, 255, 255, 0.65);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.75em;
+  font-weight: 200;
 }
 
 .avatar {
@@ -59,7 +63,7 @@ body{
   cursor: default;
   list-style: none;
   padding-left: 0;
-  margin: 0 0 2em 0;
+  margin: 0 0 5em 0;
 }
 
 .social_icons li {
