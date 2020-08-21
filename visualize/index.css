@@ -161,7 +161,7 @@ body{
 
 @media (max-width: 800px) {
   .thumbnails {
-    flex: 50%;
+    flex: 40%;
     max-width: 50%;
   }
 }
