@@ -51,8 +51,8 @@ strong, b {
 }
 
 a:hover {
-    border-bottom-color: transparent;
-    color: #9bf1ff !important;
+  border-bottom-color: transparent;
+  color: #9bf1ff !important;
 }
 
 .container {
@@ -501,9 +501,7 @@ input:focus, textarea:focus{
 }
 
 
-.info_box_content p {
-
-}
+.info_box_content p {}
 
 .icons{
   cursor: default;
@@ -537,3 +535,78 @@ input:focus, textarea:focus{
   border-bottom-color: transparent;
   background-color: #9bf1ff !important;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .inner{
+    padding: 4rem 1rem;
+  }
+  .one .box{
+    width: 100%;
+  }
+  .contact{
+    border: 0;
+  }
+  .contact_info{
+    padding: 4rem 0 0 0;
+    width: 100%;
+  }
+  .contact_form_container{
+    width: 100%;
+    padding: 4rem 1rem;
+    border-right: 0;
+    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+  }
+  footer .inner{
+    padding: 6rem 2rem;
+  }
+  .icons{
+    text-align: center;
+  }
+
+  .icons li:last-child{
+    padding: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner{
+    height: 40rem;
+  }
+  .banner .inner{
+    padding-top: 12rem;
+  }
+  .inner{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .contact_form_container{
+    padding: 8rem 1rem 8rem 3rem;
+    width: 100%;
+    border-right: 0;
+    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+  }
+
+  .info_box{
+    padding-left: 4rem;
+  }
+
+  .contact_info{
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .inner{
+    padding-left: 3rem;
+  }
+  .contact_form_container{
+    padding-left: 3rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
