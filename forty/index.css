@@ -83,8 +83,8 @@ a:hover {
 .alt{
   position: fixed;
   background-color: #242943;
-	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-top .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-top {
@@ -111,8 +111,6 @@ a:hover {
     opacity: 1;
   }
 }
-
-
 
 .header .logo{
   border: 0;
@@ -317,6 +315,10 @@ a:hover {
 }
 .box:nth-child(6)::before{
   background-color: #87c5a4;
+}
+
+.box:hover::before{
+  opacity: 0;
 }
 
 .two h3::after{
