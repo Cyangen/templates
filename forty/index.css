@@ -82,7 +82,8 @@ a:hover {
 
 .alt{
   position: fixed;
-  background-color: #242943;
+  background-color: #2a2f4a;
+  box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 	-webkit-animation: slide-in-top .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-top .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -392,11 +393,12 @@ a:hover {
 
 .fields{
   width: 50%;
-  margin-bottom: 1rem
+  margin-bottom: 2rem
 }
 
 .textarea_field{
   width: 100%;
+  margin-bottom: 2rem
 }
 
 .contact_form label{
@@ -440,6 +442,22 @@ input:focus, textarea:focus{
   position: relative;
   height: 300px;
   width: 55%;
+}
+
+.submit{
+  margin-right: 2rem;
+  background-color: #ffffff;
+  box-shadow: none;
+  color: #242943;
+}
+
+.form_actions a {
+  font-size: 1rem;
+}
+
+.submit:hover{
+  background-color: #9bf1ff;
+  color: #242943 !important;
 }
 
 .contact_info{
