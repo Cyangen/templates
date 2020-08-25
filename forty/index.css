@@ -115,7 +115,7 @@ a:hover {
 .header .logo{
   border: 0;
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 1rem;
   height: inherit;
   line-height: inherit;
   padding: 0 1.5em;
@@ -140,10 +140,10 @@ a:hover {
 .header nav a {
   border: 0;
   display: block;
-  font-size: 0.8em;
+  font-size: 1rem;
   height: inherit;
   line-height: inherit;
-  padding: 0 0.75em;
+  padding: 0 0.75rem;
   position: relative;
 }
 
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .inner_header h1 {
-  font-size: 3.25rem;
+  font-size: 3.50rem;
   font-weight: 600;
   line-height: 1.65;
 }
@@ -194,7 +194,7 @@ a:hover {
   background-color: #ffffff;
   display: block;
   height: 2px;
-  margin: 0.325em 0 0.5em 0;
+  margin: 0.325rem 0 0.5rem 0;
   width: 100%;
 }
 
@@ -204,9 +204,9 @@ a:hover {
 }
 
 .inner_content p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
   max-width: 29rem;
 }
@@ -226,8 +226,8 @@ a:hover {
   box-sizing: border-box;
   position: relative;
   height: 40vh;
-  max-height: 40em;
-  min-height: 23em;
+  max-height: 40rem;
+  min-height: 23rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,14 +238,14 @@ a:hover {
   background-color: #ffffff;
   display: block;
   height: 2px;
-  margin: 0.325em 0 0.5em 0;
+  margin: 0.325rem 0 0.5rem 0;
   width: 45%;
 }
 
 .box p {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   margin-bottom: 0;
   text-transform: uppercase;
 }
@@ -345,12 +345,12 @@ a:hover {
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: 600;
-  height: 3.5em;
-  letter-spacing: 0.25em;
-  line-height: 3.5em;
-  padding: 0 1.75em;
+  height: 3.5rem;
+  letter-spacing: 0.25rem;
+  line-height: 3.5rem;
+  padding: 0 1.75rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
