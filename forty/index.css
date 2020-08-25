@@ -382,14 +382,20 @@ a:hover {
 .contact{
   display: flex;
   flex-wrap: wrap;
-  padding:4rem 8rem ;
   border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+}
+
+.contact_form_container{
+  box-sizing: border-box;
+  padding-left: 8rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  border-right: solid 1px rgba(212, 212, 255, 0.1);
 }
 
 .contact_form{
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .fields{
@@ -463,4 +469,71 @@ input:focus, textarea:focus{
 .contact_info{
   position: relative;
   width: 45%;
+}
+
+.info_box{
+  padding: 3rem;
+  border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+}
+
+.info_box_content{
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.info_box_content span {
+  position: absolute;
+  left: -3%;
+  top: 0;
+}
+
+.info_box_content span::before {
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #242943;
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  font-size: 1.8rem;
+}
+
+
+.info_box_content p {
+
+}
+
+.icons{
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+.icons li{
+  display: inline-block;
+  padding: 0 1rem 0 0;
+}
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.icon::before{
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #242943;
+  display: inline-block;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  width: 2.5rem;
+}
+
+.icon:hover:before {
+  border-bottom-color: transparent;
+  background-color: #9bf1ff !important;
 }
