@@ -383,6 +383,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   padding:4rem 8rem ;
+  border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 }
 
 .contact_form{
@@ -440,7 +441,6 @@ input:focus, textarea:focus{
 
 .contact_form_container{
   position: relative;
-  height: 300px;
   width: 55%;
 }
 
@@ -462,6 +462,5 @@ input:focus, textarea:focus{
 
 .contact_info{
   position: relative;
-  height: 300px;
   width: 45%;
 }
