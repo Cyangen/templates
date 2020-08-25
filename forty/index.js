@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 300) {
+    if ($(window).scrollTop() >= 100) {
         $('.header').addClass('alt');
     }
     else {
