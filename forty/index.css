@@ -209,6 +209,7 @@ a:hover {
   letter-spacing: 0.25rem;
   text-transform: uppercase;
   max-width: 29rem;
+  margin-right: 2rem;
 }
 
 .main{
@@ -321,6 +322,10 @@ a:hover {
   opacity: 0;
 }
 
+.two{
+  background: rgba(212, 212, 255, 0.035);
+}
+
 .two h3::after{
   content: '';
   background-color: #ffffff;
@@ -371,4 +376,74 @@ a:hover {
   top: 7px;
   margin-left: 15px;
   color: inherit;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  padding:4rem 8rem ;
+}
+
+.contact_form{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.fields{
+  width: 50%;
+  margin-bottom: 1rem
+}
+
+.textarea_field{
+  width: 100%;
+}
+
+.contact_form label{
+  display: block;
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+}
+
+.contact_form input, .contact_form textarea {
+  box-sizing: border-box;
+  padding: 0 1rem ;
+  height: 2.75rem;
+  appearance: none;
+  background: rgba(212, 212, 255, 0.035);
+  border: none;
+  border-radius: 0;
+  color: inherit;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  width: 90%;
+}
+
+input:focus, textarea:focus{
+  border-color: #9bf1ff;
+  box-shadow: 0 0 0 2px #9bf1ff;
+}
+
+.contact_form textarea{
+  width: 95%;
+  height: 12rem;
+  padding: 1rem ;
+}
+
+.contact_form_container{
+  position: relative;
+  height: 300px;
+  width: 55%;
+}
+
+.contact_info{
+  position: relative;
+  height: 300px;
+  width: 45%;
 }
