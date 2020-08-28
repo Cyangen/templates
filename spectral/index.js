@@ -1,7 +1,7 @@
 function openNav() {
   document.querySelector("body").style.background = "#2e3842";
   document.querySelector(".container").style.opacity = "0.35";
-  document.querySelector(".sidenav").style.width = "250px";
+  document.querySelector(".sidenav").style.width = "70%";
 }
 
 /* Set the width of the side navigation to 0 */
