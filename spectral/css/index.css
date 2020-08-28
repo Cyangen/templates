@@ -66,6 +66,7 @@ p{
   justify-content: space-between;
   background-color: #2E3842;
   z-index: 10;
+  transition: all linear 1s;
 }
 
 .header__logo{
