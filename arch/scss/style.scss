@@ -1,26 +1,31 @@
 @import 'config';
 
 $font-family: "Open Sans", Helvetica, sans-serif;
+$brand-blue: #2C3E50;
+$brand-green: #16A085;
+$black: #111;
+$white: #FFF;
+$card-size: 350px;
+
+$easeOutQuad: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+// Transition Mixin
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
 
 * {
   box-sizing: border-box;
-  height: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   border: 0;
-	font-size: 100%;
 	font-family: $font-family;
 	vertical-align: baseline;
-}
-
-:focus {
-  outline: 0;
-}
-
-::before, ::after{
-  content: '';
 }
 
 body,html {
@@ -38,3 +43,91 @@ img {
   height: auto;
 }
 
+.container{
+  position: relative;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  @include transition(all 300ms $easeOutQuad);
+  &:hover {
+    @include transition(all 300ms $easeOutQuad);
+  }
+}
+
+.card {
+  background-image: linear-gradient(0deg, $brand-blue 0%, $brand-green 100%);  
+  width: $card-size;
+  height: $card-size;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  height: $card-size;
+  object-fit: cover;
+  transform: translate(0,0);
+  @include transition(all 400ms $easeOutQuad);
+}
+
+.card-meta {
+  font-size: em(11);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  &:before {
+    content: '';
+    height: 1px;
+    width: 30px;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    backface-visibility: hidden;
+    opacity: 0;
+    transform: translate(0,-10px);
+    @include transition(all 200ms $easeOutQuad);
+  }  
+}
+
+.card-text {
+  color: #FFF;
+  background-color: rgba($black, .65);
+  position: absolute;
+  padding: 20px;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  @include transition(all 200ms $easeOutQuad);
+}
+
+.card-title {
+  margin: 8px 0;
+  font-weight: 300;
+  font-size: em(30);
+}
+
+.card a {
+  &:hover {
+    .card-text {
+      background-color: rgba($black, .86);
+    }
+    .card-meta {
+      &:before {
+        transform: translate(0,0);
+        opacity: 1;
+        @include transition(all 200ms $easeOutQuad);
+      }
+    }
+    
+    .card-image {
+      transform: translate(20px,0);
+      @include transition(all 400ms $easeOutQuad);
+    }    
+  }  
+}
