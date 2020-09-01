@@ -1,0 +1,28 @@
+@import 'config';
+
+$font-family: "Open Sans", Helvetica, sans-serif;
+
+* {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+	font-size: 100%;
+	font-family: $font-family;
+	vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+::before, ::after{
+  content: '';
+}
+
+body {
+  color: #fff;
+}
