@@ -1,4 +1,5 @@
 @import 'config';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 // Transition Mixin
 @mixin transition($transition...) {
@@ -66,7 +67,7 @@ a {
 }
 
 .card-meta {
-  font-size: em(11);
+  font-size: .7rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   &:before {
@@ -100,7 +101,7 @@ a {
 .card-title {
   margin: 8px 0;
   font-weight: 300;
-  font-size: em(30);
+  font-size: 2rem;
 }
 
 .card a {
