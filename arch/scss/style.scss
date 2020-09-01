@@ -14,10 +14,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
   border: 0;
 	font-family: $font-family;
 	vertical-align: baseline;
+  color: $white;
 }
 
 body,html {
@@ -25,7 +25,6 @@ body,html {
 }
 
 body {
-  color: #fff;
   background-color: #ECF0F1;
 }
 
@@ -45,6 +44,8 @@ img {
 }
 
 a {
+  text-decoration: $white;
+  border-color: $white;
   @include transition(all 300ms $easeOutQuad);
   &:hover {
     @include transition(all 300ms $easeOutQuad);
