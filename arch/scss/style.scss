@@ -23,6 +23,18 @@ $font-family: "Open Sans", Helvetica, sans-serif;
   content: '';
 }
 
+body,html {
+  min-height: 100%;
+}
+
 body {
   color: #fff;
+  background-color: #ECF0F1;
 }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
