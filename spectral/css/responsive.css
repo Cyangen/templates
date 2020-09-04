@@ -324,7 +324,7 @@
     position: relative;
     max-width: 50%;
     margin: auto;
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 3rem 0;
   }
 
   .section-three__content {
@@ -333,7 +333,7 @@
     padding: 2rem 0 2rem 2rem;
     border: 0;
     text-align: left;
-    margin-top: 3rem;
+    margin-top: 6px;
   }
 
   .section-three__content:nth-child(2){
