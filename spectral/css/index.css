@@ -96,15 +96,44 @@ p{
   padding: 6rem 3rem;
 }
 
-.banner::after{
+.banner h2{
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.banner h2:before, .banner h2:after {
+  -moz-transition: width 0.85s ease;
+  -webkit-transition: width 0.85s ease;
+  -ms-transition: width 0.85s ease;
+  transition: width 0.85s ease;
+  -moz-transition-delay: 0.25s;
+  -webkit-transition-delay: 0.25s;
+  -ms-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  background: #fff;
   content: '';
+  display: block;
+  height: 2px;
   position: absolute;
+  width: 100%;
+}
+
+.banner h2:before {
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #2e3842;
-  opacity: 0;
+}
+
+.banner h2:after {
+  bottom: 0;
+  right: 0;
 }
 
 .banner p{
@@ -112,29 +141,9 @@ p{
   letter-spacing: .2rem;
 }
 
-.banner .inner h2::before{
-  content: '';
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  margin-bottom: 1rem;
-}
-
-.banner .inner h2::after{
-  content: '';
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  margin-top: 1rem;
-}
-
 .btn--primary{
   font-size: 1rem;
-  display: block;
+  display: inline-block;
   background-color: #ed4933;
   padding: 1rem 3rem;
   border-radius: 5px;
@@ -143,8 +152,12 @@ p{
   cursor: pointer;
 }
 
+.btn--primary:hover{
+  background-color: #ef5e4a !important;
+}
+
 .btn--secondary{
-  display: block;
+  display: inline-block;
   background-color: transparent;
   padding: 1rem 3rem;
   border-radius: 5px;

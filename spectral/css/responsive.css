@@ -67,7 +67,7 @@
   }
 
  .btn--primary, .btn--secondary{
-    margin: 0 6rem ;
+    margin: 1rem;
   }
 }
 
@@ -208,10 +208,6 @@
     height: 50vh;
     padding: 10rem 6rem 6rem 6rem ;
   }
-
- .btn--primary, .btn--secondary{
-    margin: 0 10rem ;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -257,23 +253,16 @@
 
   .banner h2{
     font-size: 2rem;
-    line-height: 2rem;
     font-weight: bold;
-    padding: 0 20rem;
-  }
-
-  .banner .inner h2::before {
-    margin-bottom: .5rem;
-  }
-
-  .banner .inner h2::after {
-    margin-bottom: .5rem;
+    padding: 0.35em 1em;
   }
 
   .banner p {
     font-size: 20px;
-    padding: 1rem 5rem;
+    padding: 1rem 0;
     line-height: 2rem;
+    max-width: 50%;
+    margin: auto;
   }
 
   .section-one{
@@ -386,9 +375,5 @@
   .banner--mini{
     height: 80vh;
     padding: 10rem 6rem 6rem 6rem ;
-  }
-
- .btn--primary, .btn--secondary{
-    margin: 0 22rem ;
   }
 }
