@@ -157,12 +157,17 @@ p{
 }
 
 .btn--secondary{
+  text-transform: uppercase;
   display: inline-block;
   background-color: transparent;
   padding: 1rem 3rem;
   border-radius: 5px;
   border: 3px solid #fff;
   cursor: pointer;
+}
+
+.btn--secondary:hover{
+  background: rgba(144, 144, 144, 0.25);
 }
 
 .section-one{
@@ -190,6 +195,16 @@ p{
   border: 2px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   padding: .5rem;
+}
+
+.icon-1{
+  color: #00ffcc;
+}
+.icon-2{
+  color: #00f0ff;
+}
+.icon-3{
+  color: #76ddff;
 }
 
 .section-one__icons i::before{
@@ -291,8 +306,9 @@ p{
   font-size: 0.8em;
   letter-spacing: 0.225em;
   color: #fff;
-  display: block;
+  display: inline-block;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .sidenav .closebtn {
