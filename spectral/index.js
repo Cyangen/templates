@@ -10,3 +10,26 @@ function closeNav() {
   document.querySelector(".container").style.opacity = "1";
   document.querySelector(".sidenav").classList.remove("sidenav-width");
 }
+
+
+window.onload = function(event) {
+    
+};
+
+var scrollObject = {};
+window.onscroll = getScrollPosition;
+
+function getScrollPosition(){
+    scrollObject = {
+       x: window.pageXOffset,
+       y: window.pageYOffset
+    }
+    // If you want to check distance
+    if(scrollObject.y > 200) {
+      document.querySelector(".header").classList.remove("alt");
+      document.querySelector(".header__title").classList.remove("alt-title");
+    } else {
+      document.querySelector(".header").classList.add("alt");
+      document.querySelector(".header__title").classList.add("alt-title");
+    }
+}
