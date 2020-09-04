@@ -179,6 +179,7 @@ p{
   text-transform: uppercase;
   width: 16em;
   z-index: 1;
+  display: none;
 }
 
 .more-icon{
