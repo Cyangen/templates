@@ -55,6 +55,10 @@
     margin-bottom: 0;
   }
 
+  .section-three{
+    padding: 2rem 2rem 4rem 2rem;
+  }
+
   .section-three__header{
     padding: 1rem ;
   }
@@ -69,9 +73,39 @@
 
   .section-three__content {
     display: inline-block;
-    width: 40%;
+    width: 49%;
     padding: 2rem 1rem;
     border: 0;
+    margin-right: -2px;
+    margin-left: -2px;
+  }
+
+  .section-three__content h3{
+    font-size: 1.3rem;
+  }
+
+  .section-three__content p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+
+  .section-three__content:nth-child(2){
+    background: #4D508D;
+  }
+  .section-three__content:nth-child(3){
+    background: #4A4D88;
+  }
+  .section-three__content:nth-child(4){
+    background: #474A83;
+  }
+  .section-three__content:nth-child(5){
+    background: #45477E;
+  }
+  .section-three__content:nth-child(6){
+    background: #424478;
+  }
+  .section-three__content:nth-child(7){
+    background: #3F4173;
   }
 
   .banner--mini{
