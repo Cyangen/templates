@@ -109,7 +109,8 @@
   }
 
   .banner--mini{
-    padding: 10rem 6rem 6rem 6rem ;
+    padding: 0;
+    height: 60vh;
   }
 
  .btn--primary, .btn--secondary{
@@ -170,7 +171,7 @@
 
   .banner p {
     font-size: 24px;
-    padding: 1rem 5rem;
+    padding: 0;
   }
 
   .section-one{
@@ -197,8 +198,11 @@
   .section-two__spotlight{
     display: flex;
     padding: 0;
-    align-items: center;
     margin-bottom: -4px;
+  }
+
+  .section-two__spotlight__image{
+    min-width: 460px;
   }
 
   .section-two__spotlight:nth-child(2){
@@ -208,7 +212,7 @@
 
   .section-two__spotlight__content{
     text-align: left;
-    padding: 0 3rem;
+    padding: 2rem 4rem;
   }
 
   .section-two__spotlight__content h2{
@@ -216,12 +220,14 @@
   }
 
   .section-two__spotlight__content p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    line-height: 2rem;
     margin-bottom: 0;
   }
 
   .section-three {
-    padding: 1rem 1rem;
+    padding: 3rem 1rem 5rem 1rem;
 }
 
   .section-three__header{
@@ -230,6 +236,7 @@
 
   .section-three__header p{
     padding: 0 8rem;
+    margin-top: 10px;
   }
 
   .section-three__content {
@@ -238,6 +245,8 @@
     padding: 2rem 0;
     border: 0;
     text-align: center;
+    margin-right: -3px;
+    margin-left: -3px;
   }
 
   .section-three__content i {
@@ -253,11 +262,17 @@
   .section-three__content p {
     padding: 1rem;
     font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .banner--mini{
     height: 50vh;
-    padding: 10rem 6rem 6rem 6rem ;
+    padding: 0;
+  }
+
+  .banner--mini p{
+    min-width: 100%;
+    margin-bottom: 1rem;
   }
 
   .more{
@@ -390,7 +405,8 @@
     padding: 2rem 0 2rem 2rem;
     border: 0;
     text-align: left;
-    margin-top: 6px;
+    margin: 6px 0 0 0;
+
   }
 
   .section-three__content:nth-child(2){
