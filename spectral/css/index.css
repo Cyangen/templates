@@ -71,6 +71,7 @@ p{
 
 .header__logo{
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .header__title{
@@ -139,6 +140,7 @@ p{
   border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 
 .btn--secondary{
@@ -147,6 +149,7 @@ p{
   padding: 1rem 3rem;
   border-radius: 5px;
   border: 3px solid #fff;
+  cursor: pointer;
 }
 
 .section-one{
