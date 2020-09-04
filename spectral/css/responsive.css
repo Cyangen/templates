@@ -11,16 +11,20 @@
   }
 
   .banner{
-    height: 60vh;
+    height: 100vh;
     padding: 14rem 6rem;
+    justify-content: center;
   }
 
   .banner h2{
-    padding: 0 10rem;
+    padding: 1.5rem;
+    font-size: 2rem;
   }
 
   .banner p {
-    padding: 1rem 5rem;
+    max-width: 60%;
+    margin: auto;
+    padding: 1rem;
   }
 
   .section-one{
@@ -36,11 +40,15 @@
   }
 
   .section-two__spotlight{
-    padding: 2rem 10rem;
+    padding: 0;
   }
 
   .section-two__spotlight__content{
-    padding-bottom: 0;
+    padding: 3rem;
+  }
+
+  .section-two__spotlight__content h2{
+    font-size: 1.5rem;
   }
 
   .section-two__spotlight__content p{
@@ -51,8 +59,12 @@
     padding: 1rem ;
   }
 
+  .section-three__header h2{
+    font-size: 1.5rem;
+  }
+
   .section-three__header p{
-    padding: 0 8rem;
+    padding: 0 3rem;
   }
 
   .section-three__content {
@@ -68,6 +80,13 @@
 
  .btn--primary, .btn--secondary{
     margin: 1rem;
+  }
+  .sidenav-width {
+    width: 40%;
+  }
+
+  .more{
+    display: block;
   }
 }
 
@@ -112,7 +131,7 @@
   }
 
   .banner h2{
-    padding: 0 10rem;
+    padding: 0.35em 1em;
   }
 
   .banner p {
