@@ -69,6 +69,14 @@ p{
   transition: all linear 1s;
 }
 
+.alt{
+  background: transparent;
+}
+
+.alt-title{
+  opacity: 0;
+}
+
 .header__logo{
   font-size: 1.5rem;
   cursor: pointer;
@@ -78,6 +86,7 @@ p{
   font-size: 1rem;
   padding-left: 1rem;
   letter-spacing: .50rem;
+  opacity: 1;
 }
 
 .banner{
@@ -139,6 +148,43 @@ p{
 .banner p{
   font-size: 16px;
   letter-spacing: .2rem;
+}
+
+.more{
+  -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
+  -webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
+  -ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
+  transition: transform 0.75s ease, opacity 0.75s ease;
+  -moz-transition-delay: 3.5s;
+  -webkit-transition-delay: 3.5s;
+  -ms-transition-delay: 3.5s;
+  transition-delay: 3.5s;
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  border: none;
+  bottom: 0;
+  color: inherit;
+  font-size: 0.8em;
+  height: 8.5em;
+  left: 50%;
+  letter-spacing: 0.225em;
+  margin-left: -8.5em;
+  opacity: 1;
+  outline: 0;
+  padding-left: 0.225em;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 16em;
+  z-index: 1;
+}
+
+.more-icon{
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .btn--primary{
